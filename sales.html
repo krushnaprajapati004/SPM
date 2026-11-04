@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sales & Income | FarmPro</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <aside class="sidebar">
+    <a class="logo" href="dashboard.html"><span class="logo-mark">🌾</span><div><h2>FarmPro</h2><small>Farm Management</small></div></a>
+    <nav class="sidebar-menu">
+      <p class="menu-title">MAIN MENU</p>
+      <a href="dashboard.html" class="menu-item"><span class="menu-icon">📊</span>Dashboard</a>
+      <a href="crops.html" class="menu-item"><span class="menu-icon">🌱</span>Crop Management</a>
+      <a href="labor.html" class="menu-item"><span class="menu-icon">🧑‍🌾</span>Labor Management</a>
+      <a href="inventory.html" class="menu-item"><span class="menu-icon">📦</span>Inventory</a>
+      <a href="expenses.html" class="menu-item"><span class="menu-icon">💰</span>Expenses</a>
+      <a href="sales.html" class="menu-item active"><span class="menu-icon">💵</span>Sales & Income</a>
+      <a href="reports.html" class="menu-item"><span class="menu-icon">📈</span>Reports & Analytics</a>
+      <a href="ai_assistant.html" class="menu-item"><span class="menu-icon">🤖</span>AI Farm Assistant</a>
+      <p class="menu-title">SYSTEM</p>
+      <a href="notifications.html" class="menu-item"><span class="menu-icon">🔔</span>Notifications <span class="notification-count">3</span></a>
+      <a href="settings.html" class="menu-item"><span class="menu-icon">⚙️</span>Settings</a>
+    </nav>
+    <div class="sidebar-bottom"><a class="help-box" href="help.html"><span>💡</span><div><strong>Need Help?</strong><small>Open Help Center →</small></div></a></div>
+  </aside>
+  <main class="main-content">
+    <header class="topbar">
+      <div class="topbar-left"><button class="menu-toggle" aria-label="Toggle navigation">☰</button><label class="search-box"><span>🔍</span><input type="search" placeholder="Search anything..." aria-label="Search"></label></div>
+      <div class="top-actions"><button class="icon-btn" data-theme-toggle aria-label="Theme preview">🌙</button><a class="icon-btn" href="notifications.html" aria-label="Notifications">🔔</a><div class="user-profile"><span class="avatar">👤</span><div><strong>Admin</strong><small>Farm Manager</small></div></div></div>
+    </header>
+    <section class="content-area">
+      <p class="welcome">Welcome back 👋</p>
+      <div class="page-heading"><div><h1>Sales & Income</h1><p>Track produce sales, quantities and payments.</p></div></div>
+
+      <div class="panel" style="margin-bottom:20px"><h2>Add a record</h2><p class="panel-subtitle">Demo form — records are not saved permanently without a database.</p>
+        <form data-demo-form><div class="form-grid"><div class="form-field"><label for="f0">Produce Name</label><input id="f0" name="f0" type="text" placeholder="Tomato"  required></div>
+<div class="form-field"><label for="f1">Quantity (kg)</label><input id="f1" name="f1" type="number" placeholder="" value="100" required></div>
+<div class="form-field"><label for="f2">Price per kg (₹)</label><input id="f2" name="f2" type="number" placeholder="" value="25" required></div>
+<div class="form-field"><label for="f3">Sale Date</label><input id="f3" name="f3" type="date" placeholder="" value="2026-10-21" required></div></div><div class="form-actions"><button class="primary-btn" type="submit">＋ Add Record</button></div></form>
+      </div>
+
+      <div class="toolbar"><div><h2 style="font-size:16px">Records</h2><p class="panel-subtitle" style="margin:4px 0 0">Sample data for layout preview</p></div><input id="tableSearch" type="search" placeholder="Search records..."></div>
+      <div class="table-wrap"><table><thead><tr><th>Produce</th><th>Quantity</th><th>Price / kg</th><th>Total</th><th>Date</th></tr></thead><tbody><tr><td>Tomato</td><td>100 kg</td><td>₹25</td><td>₹2,500</td><td>21 Oct 2026</td></tr>
+<tr><td>Onion</td><td>80 kg</td><td>₹30</td><td>₹2,400</td><td>19 Oct 2026</td></tr>
+<tr><td>Wheat</td><td>200 kg</td><td>₹28</td><td>₹5,600</td><td>15 Oct 2026</td></tr>
+</tbody></table></div>
+
+    </section>
+  </main>
+  <script src="js/script.js"></script>
+</body>
+</html>

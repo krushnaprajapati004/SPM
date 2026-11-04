@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Farm Dashboard | FarmPro</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <aside class="sidebar">
+    <a class="logo" href="dashboard.html"><span class="logo-mark">🌾</span><div><h2>FarmPro</h2><small>Farm Management</small></div></a>
+    <nav class="sidebar-menu">
+      <p class="menu-title">MAIN MENU</p>
+      <a href="dashboard.html" class="menu-item active"><span class="menu-icon">📊</span>Dashboard</a>
+      <a href="crops.html" class="menu-item"><span class="menu-icon">🌱</span>Crop Management</a>
+      <a href="labor.html" class="menu-item"><span class="menu-icon">🧑‍🌾</span>Labor Management</a>
+      <a href="inventory.html" class="menu-item"><span class="menu-icon">📦</span>Inventory</a>
+      <a href="expenses.html" class="menu-item"><span class="menu-icon">💰</span>Expenses</a>
+      <a href="sales.html" class="menu-item"><span class="menu-icon">💵</span>Sales & Income</a>
+      <a href="reports.html" class="menu-item"><span class="menu-icon">📈</span>Reports & Analytics</a>
+      <a href="ai_assistant.html" class="menu-item"><span class="menu-icon">🤖</span>AI Farm Assistant</a>
+      <p class="menu-title">SYSTEM</p>
+      <a href="notifications.html" class="menu-item"><span class="menu-icon">🔔</span>Notifications <span class="notification-count">3</span></a>
+      <a href="settings.html" class="menu-item"><span class="menu-icon">⚙️</span>Settings</a>
+    </nav>
+    <div class="sidebar-bottom"><a class="help-box" href="help.html"><span>💡</span><div><strong>Need Help?</strong><small>Open Help Center →</small></div></a></div>
+  </aside>
+  <main class="main-content">
+    <header class="topbar">
+      <div class="topbar-left"><button class="menu-toggle" aria-label="Toggle navigation">☰</button><label class="search-box"><span>🔍</span><input type="search" placeholder="Search anything..." aria-label="Search"></label></div>
+      <div class="top-actions"><button class="icon-btn" data-theme-toggle aria-label="Theme preview">🌙</button><a class="icon-btn" href="notifications.html" aria-label="Notifications">🔔</a><div class="user-profile"><span class="avatar">👤</span><div><strong>Admin</strong><small>Farm Manager</small></div></div></div>
+    </header>
+    <section class="content-area">
+      <p class="welcome">Welcome back 👋</p>
+      <div class="page-heading"><div><h1>Farm Dashboard</h1><p>Here's what's happening on your farm today.</p></div></div>
+
+      <div class="stats-grid">
+        <div class="stat-card"><div class="stat-top"><span>Active Crops</span><span class="stat-icon">🌱</span></div><div class="stat-value">08</div><div class="stat-note"><span class="positive">●</span> Crops currently growing</div></div>
+        <div class="stat-card"><div class="stat-top"><span>Farm Expenses</span><span class="stat-icon">💰</span></div><div class="stat-value">₹24,500</div><div class="stat-note">Current season demo total</div></div>
+        <div class="stat-card"><div class="stat-top"><span>Workers</span><span class="stat-icon">🧑‍🌾</span></div><div class="stat-value">12</div><div class="stat-note">Registered workers</div></div>
+        <div class="stat-card"><div class="stat-top"><span>Inventory Items</span><span class="stat-icon">📦</span></div><div class="stat-value">36</div><div class="stat-note">Items in stock</div></div>
+      </div>
+      <div class="content-grid">
+        <div class="panel"><h2>Farm Activity</h2><p class="panel-subtitle">Example activity feed — demo data</p><div class="activity-list">
+          <div class="activity-item"><span class="activity-icon">🌱</span><div><strong>Crop record reviewed</strong><small>Check crop details and update progress.</small></div></div>
+          <div class="activity-item"><span class="activity-icon">📦</span><div><strong>Inventory check</strong><small>Review fertilizer and spray stock levels.</small></div></div>
+          <div class="activity-item"><span class="activity-icon">💵</span><div><strong>Sales summary</strong><small>Enter recent harvest sales to keep totals current.</small></div></div>
+        </div></div>
+        <div class="panel"><h2>Quick Actions</h2><p class="panel-subtitle">Jump to a farm section</p><div class="activity-list">
+          <a class="activity-item" href="crops.html"><span class="activity-icon">🌿</span><div><strong>Manage crops</strong><small>Open crop records →</small></div></a>
+          <a class="activity-item" href="expenses.html"><span class="activity-icon">🧾</span><div><strong>Add expenses</strong><small>Open expense records →</small></div></a>
+          <a class="activity-item" href="reports.html"><span class="activity-icon">📈</span><div><strong>View reports</strong><small>Open analytics →</small></div></a>
+        </div></div>
+      </div>
+
+    </section>
+  </main>
+  <script src="js/script.js"></script>
+</body>
+</html>
